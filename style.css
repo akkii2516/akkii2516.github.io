@@ -1,0 +1,132 @@
+@charset "utf-8";
+html{scroll-behavior: smooth;}
+html{
+    color: #ffffff;
+}
+*{
+    margin: 0;
+}
+main{
+    background-color: #000000;
+}
+/******* ヘッダーのスタイル ********/
+
+nav.fixed{
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#global_navi ul li {
+    width: 315px;
+    float: left;
+    text-align: center;
+  }
+  
+#global_navi ul li{
+    background-color: #282828;
+    float: left;
+    text-align: center;
+    list-style: none;
+}
+
+header{
+    overflow: auto;
+}
+ul{
+    padding: 0;
+}
+
+.item {
+    padding: 17px 0;
+    font-weight:bold;
+    color: #ffffff;
+}
+
+.item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.item a:hover{
+    color: #0000FF;
+}
+
+/******* ここから各セクションのスタイル ********/
+h1 {
+    padding: 2rem 0;
+    font-weight:bold;
+}
+
+p {
+    line-height: 2;
+}
+
+section{
+    padding: 2em;
+}
+
+section .wrapper{
+    max-width: 800px;
+    text-align: center;
+}
+
+section .wrapper h1{
+    font-size: 300%;
+}
+.syoukai{
+    text-align: center;
+}
+.syoukai h2{
+    font-size: 200%;
+}
+.syoukai p{
+    font-size: 200%;
+}
+h2{
+    padding: 2rem 0;
+    font-weight:bold;
+}
+
+/******* ここからフッターのスタイル ********/
+footer {
+    background-color: #282828;
+    padding:1em;
+    text-align: center;
+}
+
+footer p {
+    font-size: .8em;
+    color: #fff;
+    max-width: 800px;
+    padding: 0;
+    text-align:center;
+    margin:0 auto;
+    font-weight:bold;
+}
+/* 一時的に表示 */
+@media screen and(max-width : 767px){
+    
+    header,#global_navi,.syoukai,#wrapper{
+        width: 100%;
+    }
+    a{
+        word-break: break-all;
+    }
+    
+    #global_navi ul li {
+        width: 50%;
+        text-align: center;
+    }
+
+}
+
+img,iframe{
+    max-width: 100%;
+}
+
+
